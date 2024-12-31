@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>formulaire D'inscription utulisateur</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+    <h2>Formulaire d'inscription utilisateur</h2>
+    <div id="nam">
+        <form id="registrationForm">
+        <div class="row">
+            <label for="firstName">Prénom</label>
+            <input  id="firstName" name="firstName" type="text" required>
+        </div>
+            <label for="lastName">Name</label>
+            <input  id="lastName" name="lastName" type="text" required>
+        <div class="row">
+            <label for="email">Email</label>
+            <input  id="email" name="email" type="email">
+        </div>
+        <div class="row">
+            <label for="password">Mot de passe</label>
+            <input  id="password" name="password" type="password">
+        </div>
+            <label for="confirmPw">Confirmer mot de passe</label>
+            <input  id="confirmPw" name="confirmPw" type="password">
+
+            <fieldset>
+                <legend>Genre</legend>
+
+             <input  id="n" name="n" type="radio" value="genre">
+             <label id="n" name="n">Masculin</label>
+
+            
+            <input  id="n" name="n" type="radio" value="genre">
+            <label id="n" name="n">feminun</label>
+
+
+            <label for="country">Pays :</label>
+            <select id="country" name="country">
+                <option value="france">france</option>
+                <option value="belgique">france</option>
+                <option value="suisse">algerie</option>
+            </select>
+            <input value="s'inscrire" type="button" id="btn" required>
+            </fieldset>
+        </div>
+            <script src="control.js" async></script>
+        </form>
+        
+    </div>
+    
+
+</body>
+</html>
